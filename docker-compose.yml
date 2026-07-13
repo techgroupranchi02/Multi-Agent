@@ -32,6 +32,8 @@ services:
     restart: always
     ports:
       - "8099:80"
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt:ro # Mount certificates as read-only 
     depends_on:
       - backend
 
