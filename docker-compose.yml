@@ -31,8 +31,7 @@ services:
     container_name: aikyam-frontend
     restart: always
     ports:
-      - "80:80"
-      - "443:443" # For SSL termination if configured on Nginx
+      - "8080:80"
     depends_on:
       - backend
 
