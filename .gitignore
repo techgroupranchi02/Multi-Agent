@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# VS Code
+.vscode/
+
+# Secrets
+backend/.env
+backend/google_oauth_client.json
+backend/google_oauth_token.json
+backend/google_service_account.json

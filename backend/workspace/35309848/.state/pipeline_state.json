@@ -1,0 +1,1225 @@
+{
+  "project_id": "35309848-acaa-4305-ad56-c3136c213e08",
+  "project_name": "Hospital Appointment & Patient Management System",
+  "raw_requirements": "We need a web-based hospital management system where patients can book appointments online, doctors can manage their schedules, and hospital staff can handle patient records.",
+  "workspace_path": "C:\\Aikyam\\Multi-Agent\\backend\\workspace\\35309848",
+  "phases": {
+    "1": {
+      "phase_id": 1,
+      "status": "success",
+      "progress": 100,
+      "logs": [
+        {
+          "timestamp": "2026-07-11T11:50:26.129916",
+          "level": "info",
+          "message": "Requirements & Design Agent starting...",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T11:50:26.130591",
+          "level": "info",
+          "message": "Analyzing raw requirements...",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T11:50:26.130818",
+          "level": "info",
+          "message": "LLM: Generating PRD...",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T11:50:50.786976",
+          "level": "info",
+          "message": "LLM response received (Ollama (Local) / qwen3-coder:30b) — 1977 tokens, $0.0000, 24.65s",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T11:50:50.791465",
+          "level": "info",
+          "message": "Saved artifact: prd.md",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T11:50:50.792139",
+          "level": "info",
+          "message": "Identified 10 open questions",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T11:50:50.794586",
+          "level": "info",
+          "message": "Saved artifact: open_questions.md",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T11:50:50.795141",
+          "level": "success",
+          "message": "PRD generated successfully",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T11:50:50.795351",
+          "level": "success",
+          "message": "✓ Phase complete — tokens: 1,977 | cost: $0.0000",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:03.490325",
+          "level": "info",
+          "message": "Requirements & Design Agent starting...",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:03.490891",
+          "level": "info",
+          "message": "Refining PRD v1 based on client feedback...",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:03.490980",
+          "level": "info",
+          "message": "LLM: Refining PRD...",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:36.602529",
+          "level": "info",
+          "message": "LLM response received (Ollama (Local) / qwen3-coder:30b) — 4957 tokens, $0.0000, 33.11s",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:36.606786",
+          "level": "info",
+          "message": "Saved artifact: prd.md",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:36.608056",
+          "level": "info",
+          "message": "Identified 8 open questions",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:36.610621",
+          "level": "info",
+          "message": "Saved artifact: open_questions.md",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:36.611164",
+          "level": "success",
+          "message": "PRD refined successfully",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:36.611274",
+          "level": "success",
+          "message": "✓ Phase complete — tokens: 6,934 | cost: $0.0000",
+          "metadata": {}
+        }
+      ],
+      "started_at": "2026-07-11T12:00:03.490272",
+      "completed_at": "2026-07-11T12:00:36.611228",
+      "duration_seconds": 33.120956,
+      "retry_count": 0,
+      "output_artifacts": {
+        "prd": "C:\\Aikyam\\Multi-Agent\\backend\\workspace\\35309848\\.state\\prd.md",
+        "open_questions": "C:\\Aikyam\\Multi-Agent\\backend\\workspace\\35309848\\.state\\open_questions.md"
+      },
+      "error_message": null,
+      "tokens_used": 6934,
+      "cost_usd": 0.0
+    },
+    "2": {
+      "phase_id": 2,
+      "status": "waiting",
+      "progress": 0,
+      "logs": [
+        {
+          "timestamp": "2026-07-11T11:51:54.992401",
+          "level": "info",
+          "message": "PRD v1 ready for review (AI Confidence: 70%)",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:00:03.489823",
+          "level": "info",
+          "message": "Regenerating PRD (v1 → v2)...",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-07-11T12:01:49.632778",
+          "level": "info",
+          "message": "PRD v2 ready for review (AI Confidence: 82%)",
+          "metadata": {}
+        }
+      ],
+      "started_at": "2026-07-11T12:01:49.632727",
+      "completed_at": "2026-07-11T12:01:49.626715",
+      "duration_seconds": 594.63436,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "3": {
+      "phase_id": 3,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "4": {
+      "phase_id": 4,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "5": {
+      "phase_id": 5,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "6": {
+      "phase_id": 6,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "7": {
+      "phase_id": 7,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "8": {
+      "phase_id": 8,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "9": {
+      "phase_id": 9,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "10": {
+      "phase_id": 10,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "11": {
+      "phase_id": 11,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "12": {
+      "phase_id": 12,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "13": {
+      "phase_id": 13,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    },
+    "14": {
+      "phase_id": 14,
+      "status": "idle",
+      "progress": 0,
+      "logs": [],
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "retry_count": 0,
+      "output_artifacts": {},
+      "error_message": null,
+      "tokens_used": 0,
+      "cost_usd": 0.0
+    }
+  },
+  "current_phase": 2,
+  "prd": "# Product Requirements Document: Hospital Appointment & Patient Management System  \n**Version 2**\n\n---\n\n## 1. Executive Summary\n\nThe **Hospital Appointment & Patient Management System** is a comprehensive, web-based platform designed to digitize and streamline hospital operations by enabling patients to book appointments online, allowing doctors to manage their schedules efficiently, and providing hospital staff with secure patient record management capabilities. The system integrates seamlessly with existing EMR/EHR systems and supports multi-departmental workflows tailored to various medical specialties.\n\nKey features include real-time scheduling, automated notifications, role-based access control, HIPAA/GDPR compliance, audit logging, and customizable interfaces per department or location. This platform aims to reduce administrative overhead, minimize scheduling conflicts, enhance patient experience, and improve overall healthcare delivery through centralized digital management of appointments, patient data, and workflow automation.\n\n---\n\n## 2. User Personas\n\n### **Dr. Sarah Chen – Senior Cardiologist**\n- **Pain Points**:\n  - Manual coordination with multiple patients leads to frequent scheduling conflicts.\n  - Inefficient access to patient medical history during consultations.\n  - Time-consuming phone calls for confirming or modifying appointments.\n  - Paper-based systems increase risk of data loss or mismanagement.\n  - Need for real-time availability updates and conflict resolution tools.\n\n### **Michael Rodriguez – Patient**\n- **Pain Points**:\n  - Long wait times due to inefficient appointment booking processes.\n  - Difficulty finding available slots that align with personal schedules.\n  - Confusion about appointment details (time, location, provider).\n  - Inability to reschedule or cancel appointments easily without phone interaction.\n  - Lack of access to medical history and test results prior to visits.\n\n### **Lisa Thompson – Hospital Administrator**\n- **Pain Points**:\n  - Manual coordination between departments increases error risk and delays.\n  - High volume of phone calls for appointment management causes inefficiency.\n  - Risk of duplicate bookings or scheduling errors due to lack of automation.\n  - Inability to generate timely reports on patient flow, doctor productivity, and resource usage.\n  - Difficulty tracking cross-departmental patient records and referrals.\n\n---\n\n## 3. Functional Requirements\n\n### **P0 – Must-Have Features**\n\n#### **Patient Appointment Booking**\n- Online appointment scheduling with real-time availability display\n- Patient registration and profile management (including contact info, insurance details)\n- Appointment confirmation via email/SMS with calendar integration (Google Calendar, Outlook)\n- Ability to view, reschedule, and cancel appointments\n- Integration with existing EMR/EHR systems for patient data retrieval\n- Support for specialty-specific appointment types and durations\n\n#### **Doctor Schedule Management**\n- Doctor login and dashboard with schedule overview\n- Set availability windows and define appointment durations\n- Conflict detection and resolution tools (manual override by admin with audit trail)\n- Appointment status tracking (confirmed, pending, completed, cancelled)\n- Integration with doctor’s personal calendar system\n- Specialty-specific scheduling rules and workflows\n\n#### **Patient Record Management**\n- Secure storage of patient medical history, test results, medications, allergies, etc.\n- Ability to add/update patient information securely\n- Search and filter capabilities for patient records\n- Access controls based on user roles (RBAC)\n- Audit trail for all record modifications with timestamps and user IDs\n- Compliance with HIPAA, GDPR, and local healthcare regulations\n\n#### **Multi-Department Integration**\n- Support for different medical specialties with configurable scheduling rules\n- Cross-departmental patient referrals and shared records (with authorization)\n- Integration with EMR/EHR systems to pull and push relevant data\n- Department-specific workflows and interface customization\n\n#### **Notification System**\n- Automated appointment reminders via email/SMS\n- Real-time alerts for schedule changes or conflicts\n- System-generated notifications for staff and patients\n- Customizable notification preferences per user role\n\n#### **Reporting and Analytics**\n- Patient flow reports (daily, weekly, monthly)\n- Doctor productivity metrics (appointment volume, no-show rates, average visit time)\n- Appointment utilization statistics\n- Revenue tracking capabilities (if applicable)\n- Exportable reports in multiple formats (PDF, Excel)\n\n### **P1 – Important Features**\n\n#### **Advanced Scheduling**\n- Group booking for family members or caregivers\n- Priority scheduling for urgent cases\n- Integration with wearable health devices (optional future enhancement)\n- Appointment rescheduling and cancellation policies with automated notifications\n\n#### **Telemedicine Integration**\n- Video consultation scheduling within the system\n- Remote patient monitoring integration (if required)\n- Virtual appointment management and tracking\n\n#### **User Access Control & Compliance**\n- Role-based access control (RBAC) with granular permissions\n- Multi-factor authentication (MFA) for privileged users\n- Session timeout after 15 minutes of inactivity\n- Secure encryption (AES-256 at rest, TLS 1.2+ in transit)\n- Complete audit logging of all patient data access and modifications\n\n#### **Data Retention & Deletion Policies**\n- Patient records retained for minimum 7–10 years or as per local regulations\n- Secure archival rather than immediate deletion of medical records\n- Soft delete functionality with recovery option where applicable\n- Secure permanent deletion only by authorized administrators after retention policies expire\n- Regular backups with encrypted storage\n\n### **P2 – Nice-to-Have Features**\n\n#### **Mobile Application**\n- iOS/Android app for patient appointment management\n- Push notifications for appointment updates and reminders\n- Mobile-friendly web interface optimization\n\n#### **Advanced Customization**\n- Highly customizable interface per department or hospital location\n- Workflow customization based on specialty requirements\n- Personalized dashboards for different user roles (doctor, admin, patient)\n\n#### **Enhanced Communication Tools**\n- In-app messaging between patients and doctors\n- Secure file sharing for medical documents\n- Integration with secure communication platforms (e.g., Slack, Microsoft Teams)\n\n---\n\n## 4. Non-Functional Requirements\n\n### **Performance**\n- System response time under 2 seconds for standard operations\n- Support for up to 2,000 concurrent users without performance degradation\n- Database query response time under 500ms\n- Appointment booking should complete within 3 seconds\n- Support at least 500 appointments per hour\n- Response time <5 seconds for complex reports\n- Database scalability to over 1 million patient records\n\n### **Security**\n- HIPAA, GDPR, and local healthcare regulation compliance\n- AES-256 encryption for stored data\n- TLS 1.2 or higher for all communications\n- Role-Based Access Control (RBAC)\n- Multi-Factor Authentication (MFA) for privileged users\n- Automatic session timeout after 15 minutes of inactivity\n- Complete audit logging of all sensitive operations\n- Secure archival and soft-delete mechanisms for records\n- Regular security assessments and vulnerability scans\n\n### **Scalability**\n- Horizontal scaling capability to accommodate growing user base\n- Database partitioning for performance optimization\n- Cloud-native architecture support with load balancing\n- Graceful degradation with queue-based processing for non-critical background tasks\n- Automatic load balancing during peak hours\n\n### **Accessibility**\n- WCAG 2.1 AA compliance for web interface\n- Support for screen readers and assistive technologies\n- Keyboard navigation support\n- Responsive design for all device sizes\n\n### **Compliance & Regulatory Requirements**\n- Full compliance with HIPAA, GDPR, and local healthcare regulations\n- Electronic audit trail requirements (all access and modification logs)\n- Electronic consent management system\n- Medical record retention policies (minimum 7–10 years)\n- Secure deletion protocols post-retention period\n- Regular compliance audits and documentation\n\n---\n\n## 5. User Stories\n\n**As a patient, I want to book appointments online so that I can save time and avoid phone calls to the hospital.**\n\n**As a doctor, I want to manage my schedule with real-time availability updates so that I can optimize daily appointments and reduce scheduling conflicts.**\n\n**As a hospital administrator, I want to track patient records across departments so that I can ensure seamless care coordination and maintain accurate medical histories.**\n\n**As a patient, I want appointment confirmation notifications so that I am always informed about my scheduled visits.**\n\n**As a doctor, I want to view patient medical history before appointments so that I can provide better, personalized care.**\n\n**As an administrator, I want reporting capabilities so that I can analyze patient flow and optimize hospital resource allocation.**\n\n**As a doctor, I want to access EMR/EHR data directly from the system so that I don’t need to switch between applications.**\n\n**As a patient, I want to reschedule or cancel appointments easily through the portal so that I avoid delays and communication issues.**\n\n**As an administrator, I want to enforce strict access controls and audit logs so that patient privacy is maintained at all times.**\n\n**As a department head, I want customizable workflows and dashboards so that our unique scheduling needs are met efficiently.**\n\n---\n\n## 6. Out of Scope\n\n- Billing and payment processing functionality\n- Direct integration with insurance verification systems\n- Multi-language support beyond English\n- Integration with external healthcare systems (EMR/EHR) beyond basic data exchange (initial phase)\n- Advanced clinical decision support tools\n- Patient portal for direct communication with doctors\n- Telemedicine video conferencing (limited to scheduling only in this version)\n\n---\n\n7. **Should patient consent forms be digitally signed and stored within the system?**\n\n---\n\n## 7. Success Metrics\n\n| Metric | Target |\n|--------|--------|\n| **User Adoption Rate** | 85% of target users (patients, doctors, staff) actively using the system within 3 months |\n| **Appointment Booking Efficiency** | 70% reduction in time spent on appointment scheduling and management |\n| **Patient Satisfaction Score** | 4.5+ out of 5 stars for appointment booking experience |\n| **System Uptime** | 99.9% availability with <1 minute downtime per month |\n| **Error Rate** | <0.1% system errors or data corruption incidents |\n| **Data Security Compliance** | 100% compliance with HIPAA, GDPR, and local regulations |\n| **Performance Metrics** | 95% of operations completing within 2 seconds response time |\n| **Staff Productivity** | 30% improvement in scheduling efficiency for medical staff |\n| **Concurrent Users Supported** | Up to 2,000 concurrent users without performance degradation |\n| **Database Scalability** | Support for over 1 million patient records |\n\n---\n\n## 8. Assumptions & Constraints\n\n### **Technical Assumptions**\n- Hospital has existing internet connectivity and basic IT infrastructure\n- Current patient database can be migrated to new system with minimal data loss\n- Staff will require training and support during transition period\n- EMR/EHR systems are accessible via APIs or integration protocols\n- No major legacy systems exist that would prevent integration\n\n### **Business Assumptions**\n- Hospital management supports investment in healthcare technology improvements\n- Staff willingness to adopt new digital processes and workflows\n- Adequate budget allocation for both initial development and ongoing maintenance\n- Regulatory environment allows for web-based patient appointment management\n- Existing EMR/EHR systems are compatible with the proposed integration approach\n\n### **Constraints**\n- Budget limitations may restrict advanced features in initial release\n- Timeline constraints may require phased implementation approach\n- Existing staff training capacity may limit rapid adoption\n- Integration with existing hospital systems may be complex and time-consuming\n- Compliance requirements may add complexity to development and testing phases\n\n--- \n\n*End of Document*\n",
+  "pdd": null,
+  "execution_plan": null,
+  "api_spec": null,
+  "db_schema": null,
+  "open_questions": [
+    "**What specific EMR/EHR system is currently used by the hospital?**",
+    "**Are there any existing APIs or integration protocols available for EMR/EHR systems?**",
+    "**How many departments will be supported initially, and what are their unique scheduling requirements?**",
+    "**Is there a preferred vendor or cloud infrastructure provider (e.g., AWS, Azure)?**",
+    "**What is the expected timeline for full deployment and rollout across all departments?**",
+    "**Are there any legacy systems that must be phased out during migration?**",
+    "**Will the system support offline mode for critical functions in case of network failure?**",
+    "**Should patient consent forms be digitally signed and stored within the system?**"
+  ],
+  "jira_epic_key": null,
+  "jira_tasks": [],
+  "git_repo": null,
+  "git_branch": null,
+  "code_files": [],
+  "unit_test_results": null,
+  "review_verdict": null,
+  "review_feedback": null,
+  "review_attempt_count": 0,
+  "test_cases_excel_path": null,
+  "test_results": null,
+  "qa_attempt_count": 0,
+  "security_report": null,
+  "security_passed": false,
+  "staging_url": null,
+  "production_url": null,
+  "smoke_test_passed": false,
+  "prd_approved": false,
+  "scope_approved": false,
+  "production_approved": false,
+  "human_feedback": null,
+  "prd_versions": [
+    {
+      "version": 1,
+      "content": "# Product Requirements Document: Hospital Appointment & Patient Management System\n\n## 1. Executive Summary\n\nThe Hospital Appointment & Patient Management System is a comprehensive web-based platform designed to streamline healthcare delivery by enabling patients to book appointments online, allowing doctors to manage their schedules efficiently, and providing hospital staff with robust patient record management capabilities. The system will serve as a centralized digital solution that reduces administrative burden, minimizes appointment conflicts, improves patient experience, and enhances overall healthcare operational efficiency through automated scheduling, real-time availability updates, and secure patient data management.\n\n## 2. User Personas\n\n### **Dr. Sarah Chen - Senior Cardiologist**\n- **Pain Points**: \n  - Manual scheduling conflicts with multiple patients\n  - Difficulty tracking patient history during appointments\n  - Time spent on phone calls to confirm/modify appointments\n  - Inefficient paper-based patient record management\n  - Need for real-time availability updates to optimize daily schedule\n\n### **Michael Rodriguez - Patient**\n- **Pain Points**:\n  - Long wait times due to inefficient appointment booking\n  - Difficulty finding available slots that fit their schedule\n  - Confusion about appointment details and location\n  - Inability to reschedule or cancel appointments easily\n  - Lack of access to medical history and test results\n\n### **Lisa Thompson - Hospital Administrator**\n- **Pain Points**:\n  - Manual coordination between departments\n  - High volume of phone calls for appointment management\n  - Risk of duplicate bookings or scheduling errors\n  - Difficulty generating reports on patient flow and doctor productivity\n  - Inadequate tracking of patient records across different departments\n\n## 3. Functional Requirements\n\n### **P0 - Must-Have Features**\n\n**Patient Appointment Booking**\n- Online appointment scheduling with real-time availability display\n- Patient registration and profile management\n- Appointment confirmation via email/SMS\n- Ability to view, reschedule, and cancel appointments\n- Integration with calendar systems (Google Calendar, Outlook)\n\n**Doctor Schedule Management**\n- Doctor login and dashboard with schedule overview\n- Ability to set availability windows and appointment durations\n- Conflict detection and resolution tools\n- Appointment status tracking (confirmed, pending, completed, cancelled)\n- Integration with doctor's personal calendar\n\n**Patient Record Management**\n- Secure storage of patient medical history\n- Ability to add/update patient information\n- Search and filter capabilities for patient records\n- Access controls based on user roles\n- Audit trail for all record modifications\n\n### **P1 - Important Features**\n\n**Multi-Department Integration**\n- Support for different medical specialties\n- Department-specific scheduling rules\n- Cross-departmental patient referrals\n- Shared patient records across authorized departments\n\n**Notification System**\n- Automated appointment reminders (email/SMS)\n- Real-time alerts for schedule changes\n- System-generated notifications for staff\n- Customizable notification preferences\n\n**Reporting and Analytics**\n- Patient flow reports\n- Doctor productivity metrics\n- Appointment utilization statistics\n- Revenue tracking capabilities\n\n### **P2 - Nice-to-Have Features**\n\n**Mobile Application**\n- iOS/Android app for patient appointment management\n- Push notifications for appointment updates\n- Mobile-friendly web interface optimization\n\n**Advanced Scheduling**\n- Automated appointment reminders with multiple notification methods\n- Group booking capabilities for family members\n- Priority scheduling for urgent cases\n- Integration with wearable health devices\n\n**Telemedicine Integration**\n- Video consultation scheduling\n- Remote patient monitoring integration\n- Virtual appointment management\n\n## 4. Non-Functional Requirements\n\n### **Performance**\n- System response time under 2 seconds for standard operations\n- Support for concurrent users up to 10,000\n- Database query response time under 500ms\n- 99.9% uptime availability\n\n### **Security**\n- HIPAA compliance for patient data protection\n- End-to-end encryption for all sensitive information\n- Role-based access controls with audit logging\n- Regular security vulnerability assessments\n- Two-factor authentication for staff users\n\n### **Scalability**\n- Horizontal scaling capability to accommodate growing user base\n- Database partitioning for performance optimization\n- Cloud-native architecture support\n- Load balancing across multiple servers\n\n### **Accessibility**\n- WCAG 2.1 AA compliance for web interface\n- Support for screen readers and assistive technologies\n- Keyboard navigation support\n- Responsive design for all device sizes\n\n## 5. User Stories\n\n**As a patient, I want to book appointments online so that I can save time and avoid phone calls to the hospital.**\n\n**As a doctor, I want to manage my schedule with real-time availability updates so that I can optimize my daily appointments and reduce scheduling conflicts.**\n\n**As a hospital administrator, I want to track patient records across departments so that I can ensure seamless care coordination and maintain accurate medical histories.**\n\n**As a patient, I want appointment confirmation notifications so that I am always informed about my scheduled visits.**\n\n**As a doctor, I want to view patient medical history before appointments so that I can provide better, personalized care.**\n\n**As an administrator, I want reporting capabilities so that I can analyze patient flow and optimize hospital resource allocation.**\n\n## 6. Out of Scope\n\n- Integration with external healthcare systems (EMR/EHR systems)\n- Billing and payment processing functionality\n- Medical device integration or data collection\n- Multi-language support beyond English\n- Advanced clinical decision support tools\n- Patient portal for direct communication with doctors\n- Integration with insurance verification systems\n- Mobile application development (initial phase)\n\n7. **Are there specific hardware or infrastructure requirements that need to be considered?**\n8. **What is the expected user base distribution among patients, doctors, and staff?**\n9. **Are there any existing patient or doctor communication channels that should be integrated or replaced?**\n\n## 7. Success Metrics\n\n- **User Adoption Rate**: 85% of target users (patients, doctors, staff) actively using the system within 3 months\n- **Appointment Booking Efficiency**: 70% reduction in time spent on appointment scheduling and management\n- **Patient Satisfaction Score**: 4.5+ out of 5 stars for appointment booking experience\n- **System Uptime**: 99.9% availability with <1 minute downtime per month\n- **Error Rate**: <0.1% system errors or data corruption incidents\n- **Data Security Compliance**: 100% compliance with HIPAA and other relevant regulations\n- **Performance Metrics**: 95% of operations completing within 2 seconds response time\n- **Staff Productivity**: 30% improvement in scheduling efficiency for medical staff\n\n## 8. Assumptions & Constraints\n\n### **Technical Assumptions**\n- Hospital has existing internet connectivity and basic IT infrastructure\n- Current patient database can be migrated to new system with minimal data loss\n- Staff will require training and support during transition period\n- No major legacy systems exist that would prevent integration\n\n### **Business Assumptions**\n- Hospital management supports investment in healthcare technology improvements\n- Staff willingness to adopt new digital processes and workflows\n- Adequate budget allocation for both initial development and ongoing maintenance\n- Regulatory environment allows for web-based patient appointment management\n\n### **Constraints**\n- Budget limitations may restrict advanced features in initial release\n- Timeline constraints may require phased implementation approach\n- Existing staff training capacity may limit rapid adoption\n- Integration with existing hospital systems may be complex and time-consuming\n",
+      "created_at": "2026-07-11T11:50:50.802621",
+      "gdoc_url": "https://docs.google.com/document/d/1uRQojwoE-lfVczAThJxAFQRaL98YTC0BRF5LsXhn8-c/edit#tab=t.0",
+      "gdoc_tab_id": "t.0",
+      "overall_ai_confidence": 70.0,
+      "overall_understanding_score": null,
+      "section_scores": [
+        {
+          "section_name": "Introduction",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 70.0,
+          "understanding_score": null,
+          "question_count": 6,
+          "estimated_minutes": 3,
+          "questions": [
+            {
+              "id": "q_introduction_1",
+              "text": "Does the system need to integrate with existing hospital IT infrastructure (e.g., legacy systems, EMR/EHR platforms)?",
+              "type": "yes_no",
+              "options": null,
+              "context": "AI confidence is low due to lack of integration details in PRD."
+            },
+            {
+              "id": "q_introduction_2",
+              "text": "Should the system support multiple languages beyond English?",
+              "type": "yes_no",
+              "options": null,
+              "context": "AI confidence is low due to no mention of multi-language support."
+            },
+            {
+              "id": "q_introduction_3",
+              "text": "Is there a specific technology stack or platform (e.g., cloud provider, database type) that the system must use?",
+              "type": "short_text",
+              "options": null,
+              "context": "AI confidence is low due to lack of technical architecture details."
+            },
+            {
+              "id": "q_introduction_4",
+              "text": "Should patient data be stored locally or in a cloud environment?",
+              "type": "multiple_choice",
+              "options": [
+                "Locally",
+                "In cloud",
+                "Hybrid",
+                "Not specified"
+              ],
+              "context": "AI confidence is low due to lack of data storage strategy."
+            },
+            {
+              "id": "q_introduction_5",
+              "text": "Are there specific compliance requirements beyond HIPAA that must be considered?",
+              "type": "short_text",
+              "options": null,
+              "context": "AI confidence is low due to limited mention of compliance beyond general healthcare context."
+            },
+            {
+              "id": "q_introduction_6",
+              "text": "Should the system support offline functionality for critical features?",
+              "type": "yes_no",
+              "options": null,
+              "context": "AI confidence is low due to lack of offline capability considerations."
+            }
+          ],
+          "why_low": [
+            "Lacks specific details on system architecture or technology stack",
+            "Does not specify integration requirements with existing hospital systems",
+            "No mention of data privacy or compliance requirements beyond general healthcare context"
+          ],
+          "confidence_level": "medium",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Executive Summary",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 80.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_executive_summary",
+              "text": "Is the 'Executive Summary' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "User Personas",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 75.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_user_personas",
+              "text": "Is the 'User Personas' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [
+            "Personas are somewhat generic and don't fully capture the complexity of real-world healthcare workflows",
+            "Missing detailed demographic information about users",
+            "No explicit mention of how personas influence system design decisions"
+          ],
+          "confidence_level": "medium",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Functional Requirements",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 85.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_functional_requirements",
+              "text": "Is the 'Functional Requirements' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Non-Functional Requirements",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 90.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_non-functional_requirements",
+              "text": "Is the 'Non-Functional Requirements' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "User Stories",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 78.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_user_stories",
+              "text": "Is the 'User Stories' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [
+            "User stories are brief and lack detailed acceptance criteria",
+            "No prioritization or sequencing of user stories provided",
+            "Missing technical implementation details in user stories"
+          ],
+          "confidence_level": "medium",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Out of Scope",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 82.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_out_of_scope",
+              "text": "Is the 'Out of Scope' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Hardware/Infrastructure Requirements",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 45.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_hardware/infrastructure_requirements",
+              "text": "Is the 'Hardware/Infrastructure Requirements' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [
+            "No actual requirements listed in this section",
+            "The question is asked but no answers provided",
+            "Critical infrastructure considerations missing from the document"
+          ],
+          "confidence_level": "low",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "User Base Distribution",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 40.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_user_base_distribution",
+              "text": "Is the 'User Base Distribution' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [
+            "No actual distribution data provided",
+            "The question is asked but no answers provided",
+            "Critical user analytics information missing"
+          ],
+          "confidence_level": "low",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Communication Channels Integration",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 35.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_communication_channels_integration",
+              "text": "Is the 'Communication Channels Integration' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [
+            "No actual integration details provided",
+            "The question is asked but no answers provided",
+            "Missing information on existing communication systems that need to be considered"
+          ],
+          "confidence_level": "low",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Success Metrics",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 72.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_success_metrics",
+              "text": "Is the 'Success Metrics' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [
+            "Metrics are somewhat generic and lack specific KPIs",
+            "No mention of how success will be measured or tracked over time",
+            "Missing baseline data or benchmarks for comparison"
+          ],
+          "confidence_level": "medium",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Assumptions & Constraints",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 88.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_assumptions_&_constraints",
+              "text": "Is the 'Assumptions & Constraints' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        }
+      ],
+      "review_session": {
+        "session_id": "5487c1b2-8d0e-44db-bdde-74168aa68768",
+        "prd_version": 1,
+        "started_at": "2026-07-11T11:51:43.728766",
+        "completed_at": "2026-07-11T12:00:03.483598",
+        "questionnaire_responses": {},
+        "completed_sections": [],
+        "feedback_files": [],
+        "feedback_text": null,
+        "understanding_analysis": null,
+        "new_requirements": 0,
+        "clarifications": 0,
+        "conflicts": 0,
+        "enhancements": 0,
+        "change_evidence": [],
+        "status": "ready_for_redraft",
+        "quick_questions": [
+          {
+            "id": "qq_1",
+            "type": "multiple_choice",
+            "text": "What level of integration is expected with existing hospital infrastructure, particularly regarding patient data and appointment scheduling systems?",
+            "context": "The original requirements mention handling patient records but don't specify how the system should integrate with or interact with existing hospital IT infrastructure. This will determine technical architecture, data migration needs, and system complexity.",
+            "options": [
+              "Full integration with existing EMR/EHR systems is required",
+              "Limited integration through APIs and data exchange protocols only",
+              "No integration needed - this system will be standalone"
+            ]
+          },
+          {
+            "id": "qq_2",
+            "type": "multiple_choice",
+            "text": "How should the system handle different medical specialties and their unique scheduling requirements?",
+            "context": "While the PRD mentions multi-department support, it doesn't clarify whether specialties have distinct appointment types, duration requirements, or specific workflow needs that must be accommodated.",
+            "options": [
+              "All specialties use standard appointment templates with minimal customization",
+              "Each specialty has configurable scheduling rules and appointment types",
+              "Specialties are grouped into broad categories with shared scheduling parameters"
+            ]
+          },
+          {
+            "id": "qq_3",
+            "type": "open",
+            "text": "What are the specific regulatory compliance requirements beyond HIPAA that must be addressed in the system design?",
+            "context": "The PRD mentions HIPAA compliance but doesn't specify other relevant regulations (e.g., state-specific healthcare laws, medical device regulations) that may impact system functionality and data handling.",
+            "options": null
+          },
+          {
+            "id": "qq_4",
+            "type": "multiple_choice",
+            "text": "What is the expected user adoption strategy and training approach for different stakeholder groups?",
+            "context": "The PRD defines user personas but doesn't specify how the system will be rolled out or whether dedicated training programs, documentation, or support channels are required.",
+            "options": [
+              "Comprehensive training program with dedicated onboarding sessions",
+              "Self-service documentation and video tutorials",
+              "Gradual rollout with minimal direct training support"
+            ]
+          },
+          {
+            "id": "qq_5",
+            "type": "open",
+            "text": "What are the specific performance and scalability targets for peak usage periods, particularly during high-demand times?",
+            "context": "While the PRD includes general performance metrics, it lacks details on expected concurrent users, peak load scenarios, or how system performance should degrade gracefully under stress.",
+            "options": null
+          },
+          {
+            "id": "qq_6",
+            "type": "multiple_choice",
+            "text": "How should the system handle appointment conflicts and what escalation processes are required?",
+            "context": "The PRD mentions conflict detection but doesn't specify whether conflicts should be automatically resolved, require manual intervention, or trigger specific escalation workflows.",
+            "options": [
+              "Automatic conflict resolution with user confirmation",
+              "Manual override by administrators with audit trail",
+              "Conflict notification to all involved parties for resolution"
+            ]
+          },
+          {
+            "id": "qq_7",
+            "type": "open",
+            "text": "What are the specific security and privacy requirements for data access, retention, and deletion?",
+            "context": "Security is mentioned but not detailed enough to determine if there are specific requirements around data encryption at rest, access logging frequency, or compliance with specific data retention policies.",
+            "options": null
+          },
+          {
+            "id": "qq_8",
+            "type": "multiple_choice",
+            "text": "What level of customization is expected for different hospital departments or locations?",
+            "context": "The PRD mentions multi-department support but doesn't clarify whether departments need to customize workflows, branding, or specific features independently.",
+            "options": [
+              "Standardized system with minimal departmental customization",
+              "Highly customizable interface and workflow per department",
+              "Modular approach where departments can enable/disable features"
+            ]
+          }
+        ],
+        "quick_responses": {
+          "qq_1": "Full integration with existing EMR/EHR systems is required",
+          "qq_2": "Each specialty has configurable scheduling rules and appointment types",
+          "qq_3": "The system should comply with:\n\nHIPAA requirements for patient privacy and security.\nGDPR (if international patients' data is stored).\nLocal healthcare regulations applicable to the country or state.\nMedical record retention policies (minimum 7–10 years).\nElectronic audit trail requirements.\nElectronic consent management.\nSecure encryption (AES-256 at rest and TLS 1.2+ in transit).\nRole-based access control (RBAC).\nMulti-factor authentication for administrators.\nComplete audit logging for all patient data access and modifications.",
+          "qq_4": "Comprehensive training program with dedicated onboarding sessions",
+          "qq_5": "The system should support:\n\nUp to 2,000 concurrent users without performance degradation.\nResponse time:\n<2 seconds for standard operations.\n<5 seconds for complex reports.\nAppointment booking should complete within 3 seconds.\nSupport at least 500 appointments per hour.\nDatabase should scale to over 1 million patient records.\nSystem availability of 99.9% uptime.\nAutomatic load balancing and horizontal scalability during peak hours.\nGraceful degradation with queue-based processing for non-critical background tasks.",
+          "qq_6": "Manual override by administrators with audit trail",
+          "qq_7": "The system should implement:\n\nAES-256 encryption for stored data.\nTLS 1.2 or higher for all communications.\nRole-Based Access Control (RBAC).\nMulti-Factor Authentication (MFA) for privileged users.\nAutomatic session timeout after 15 minutes of inactivity.\nComplete audit logging of all sensitive operations.\nPatient records retained for 10 years or according to local regulations.\nSecure archival rather than immediate deletion of medical records.\nSoft delete for recoverable records where applicable.\nSecure permanent deletion only by authorized administrators after retention policies expire.\nRegular backups with encrypted storage.\nPeriodic security assessments and vulnerability scans.",
+          "qq_8": "Highly customizable interface and workflow per department"
+        },
+        "review_mode": "quick"
+      },
+      "changes_from_previous": [],
+      "change_evidence": [],
+      "status": "archived"
+    },
+    {
+      "version": 2,
+      "content": "# Product Requirements Document: Hospital Appointment & Patient Management System  \n**Version 2**\n\n---\n\n## 1. Executive Summary\n\nThe **Hospital Appointment & Patient Management System** is a comprehensive, web-based platform designed to digitize and streamline hospital operations by enabling patients to book appointments online, allowing doctors to manage their schedules efficiently, and providing hospital staff with secure patient record management capabilities. The system integrates seamlessly with existing EMR/EHR systems and supports multi-departmental workflows tailored to various medical specialties.\n\nKey features include real-time scheduling, automated notifications, role-based access control, HIPAA/GDPR compliance, audit logging, and customizable interfaces per department or location. This platform aims to reduce administrative overhead, minimize scheduling conflicts, enhance patient experience, and improve overall healthcare delivery through centralized digital management of appointments, patient data, and workflow automation.\n\n---\n\n## 2. User Personas\n\n### **Dr. Sarah Chen – Senior Cardiologist**\n- **Pain Points**:\n  - Manual coordination with multiple patients leads to frequent scheduling conflicts.\n  - Inefficient access to patient medical history during consultations.\n  - Time-consuming phone calls for confirming or modifying appointments.\n  - Paper-based systems increase risk of data loss or mismanagement.\n  - Need for real-time availability updates and conflict resolution tools.\n\n### **Michael Rodriguez – Patient**\n- **Pain Points**:\n  - Long wait times due to inefficient appointment booking processes.\n  - Difficulty finding available slots that align with personal schedules.\n  - Confusion about appointment details (time, location, provider).\n  - Inability to reschedule or cancel appointments easily without phone interaction.\n  - Lack of access to medical history and test results prior to visits.\n\n### **Lisa Thompson – Hospital Administrator**\n- **Pain Points**:\n  - Manual coordination between departments increases error risk and delays.\n  - High volume of phone calls for appointment management causes inefficiency.\n  - Risk of duplicate bookings or scheduling errors due to lack of automation.\n  - Inability to generate timely reports on patient flow, doctor productivity, and resource usage.\n  - Difficulty tracking cross-departmental patient records and referrals.\n\n---\n\n## 3. Functional Requirements\n\n### **P0 – Must-Have Features**\n\n#### **Patient Appointment Booking**\n- Online appointment scheduling with real-time availability display\n- Patient registration and profile management (including contact info, insurance details)\n- Appointment confirmation via email/SMS with calendar integration (Google Calendar, Outlook)\n- Ability to view, reschedule, and cancel appointments\n- Integration with existing EMR/EHR systems for patient data retrieval\n- Support for specialty-specific appointment types and durations\n\n#### **Doctor Schedule Management**\n- Doctor login and dashboard with schedule overview\n- Set availability windows and define appointment durations\n- Conflict detection and resolution tools (manual override by admin with audit trail)\n- Appointment status tracking (confirmed, pending, completed, cancelled)\n- Integration with doctor’s personal calendar system\n- Specialty-specific scheduling rules and workflows\n\n#### **Patient Record Management**\n- Secure storage of patient medical history, test results, medications, allergies, etc.\n- Ability to add/update patient information securely\n- Search and filter capabilities for patient records\n- Access controls based on user roles (RBAC)\n- Audit trail for all record modifications with timestamps and user IDs\n- Compliance with HIPAA, GDPR, and local healthcare regulations\n\n#### **Multi-Department Integration**\n- Support for different medical specialties with configurable scheduling rules\n- Cross-departmental patient referrals and shared records (with authorization)\n- Integration with EMR/EHR systems to pull and push relevant data\n- Department-specific workflows and interface customization\n\n#### **Notification System**\n- Automated appointment reminders via email/SMS\n- Real-time alerts for schedule changes or conflicts\n- System-generated notifications for staff and patients\n- Customizable notification preferences per user role\n\n#### **Reporting and Analytics**\n- Patient flow reports (daily, weekly, monthly)\n- Doctor productivity metrics (appointment volume, no-show rates, average visit time)\n- Appointment utilization statistics\n- Revenue tracking capabilities (if applicable)\n- Exportable reports in multiple formats (PDF, Excel)\n\n### **P1 – Important Features**\n\n#### **Advanced Scheduling**\n- Group booking for family members or caregivers\n- Priority scheduling for urgent cases\n- Integration with wearable health devices (optional future enhancement)\n- Appointment rescheduling and cancellation policies with automated notifications\n\n#### **Telemedicine Integration**\n- Video consultation scheduling within the system\n- Remote patient monitoring integration (if required)\n- Virtual appointment management and tracking\n\n#### **User Access Control & Compliance**\n- Role-based access control (RBAC) with granular permissions\n- Multi-factor authentication (MFA) for privileged users\n- Session timeout after 15 minutes of inactivity\n- Secure encryption (AES-256 at rest, TLS 1.2+ in transit)\n- Complete audit logging of all patient data access and modifications\n\n#### **Data Retention & Deletion Policies**\n- Patient records retained for minimum 7–10 years or as per local regulations\n- Secure archival rather than immediate deletion of medical records\n- Soft delete functionality with recovery option where applicable\n- Secure permanent deletion only by authorized administrators after retention policies expire\n- Regular backups with encrypted storage\n\n### **P2 – Nice-to-Have Features**\n\n#### **Mobile Application**\n- iOS/Android app for patient appointment management\n- Push notifications for appointment updates and reminders\n- Mobile-friendly web interface optimization\n\n#### **Advanced Customization**\n- Highly customizable interface per department or hospital location\n- Workflow customization based on specialty requirements\n- Personalized dashboards for different user roles (doctor, admin, patient)\n\n#### **Enhanced Communication Tools**\n- In-app messaging between patients and doctors\n- Secure file sharing for medical documents\n- Integration with secure communication platforms (e.g., Slack, Microsoft Teams)\n\n---\n\n## 4. Non-Functional Requirements\n\n### **Performance**\n- System response time under 2 seconds for standard operations\n- Support for up to 2,000 concurrent users without performance degradation\n- Database query response time under 500ms\n- Appointment booking should complete within 3 seconds\n- Support at least 500 appointments per hour\n- Response time <5 seconds for complex reports\n- Database scalability to over 1 million patient records\n\n### **Security**\n- HIPAA, GDPR, and local healthcare regulation compliance\n- AES-256 encryption for stored data\n- TLS 1.2 or higher for all communications\n- Role-Based Access Control (RBAC)\n- Multi-Factor Authentication (MFA) for privileged users\n- Automatic session timeout after 15 minutes of inactivity\n- Complete audit logging of all sensitive operations\n- Secure archival and soft-delete mechanisms for records\n- Regular security assessments and vulnerability scans\n\n### **Scalability**\n- Horizontal scaling capability to accommodate growing user base\n- Database partitioning for performance optimization\n- Cloud-native architecture support with load balancing\n- Graceful degradation with queue-based processing for non-critical background tasks\n- Automatic load balancing during peak hours\n\n### **Accessibility**\n- WCAG 2.1 AA compliance for web interface\n- Support for screen readers and assistive technologies\n- Keyboard navigation support\n- Responsive design for all device sizes\n\n### **Compliance & Regulatory Requirements**\n- Full compliance with HIPAA, GDPR, and local healthcare regulations\n- Electronic audit trail requirements (all access and modification logs)\n- Electronic consent management system\n- Medical record retention policies (minimum 7–10 years)\n- Secure deletion protocols post-retention period\n- Regular compliance audits and documentation\n\n---\n\n## 5. User Stories\n\n**As a patient, I want to book appointments online so that I can save time and avoid phone calls to the hospital.**\n\n**As a doctor, I want to manage my schedule with real-time availability updates so that I can optimize daily appointments and reduce scheduling conflicts.**\n\n**As a hospital administrator, I want to track patient records across departments so that I can ensure seamless care coordination and maintain accurate medical histories.**\n\n**As a patient, I want appointment confirmation notifications so that I am always informed about my scheduled visits.**\n\n**As a doctor, I want to view patient medical history before appointments so that I can provide better, personalized care.**\n\n**As an administrator, I want reporting capabilities so that I can analyze patient flow and optimize hospital resource allocation.**\n\n**As a doctor, I want to access EMR/EHR data directly from the system so that I don’t need to switch between applications.**\n\n**As a patient, I want to reschedule or cancel appointments easily through the portal so that I avoid delays and communication issues.**\n\n**As an administrator, I want to enforce strict access controls and audit logs so that patient privacy is maintained at all times.**\n\n**As a department head, I want customizable workflows and dashboards so that our unique scheduling needs are met efficiently.**\n\n---\n\n## 6. Out of Scope\n\n- Billing and payment processing functionality\n- Direct integration with insurance verification systems\n- Multi-language support beyond English\n- Integration with external healthcare systems (EMR/EHR) beyond basic data exchange (initial phase)\n- Advanced clinical decision support tools\n- Patient portal for direct communication with doctors\n- Telemedicine video conferencing (limited to scheduling only in this version)\n\n---\n\n7. **Should patient consent forms be digitally signed and stored within the system?**\n\n---\n\n## 7. Success Metrics\n\n| Metric | Target |\n|--------|--------|\n| **User Adoption Rate** | 85% of target users (patients, doctors, staff) actively using the system within 3 months |\n| **Appointment Booking Efficiency** | 70% reduction in time spent on appointment scheduling and management |\n| **Patient Satisfaction Score** | 4.5+ out of 5 stars for appointment booking experience |\n| **System Uptime** | 99.9% availability with <1 minute downtime per month |\n| **Error Rate** | <0.1% system errors or data corruption incidents |\n| **Data Security Compliance** | 100% compliance with HIPAA, GDPR, and local regulations |\n| **Performance Metrics** | 95% of operations completing within 2 seconds response time |\n| **Staff Productivity** | 30% improvement in scheduling efficiency for medical staff |\n| **Concurrent Users Supported** | Up to 2,000 concurrent users without performance degradation |\n| **Database Scalability** | Support for over 1 million patient records |\n\n---\n\n## 8. Assumptions & Constraints\n\n### **Technical Assumptions**\n- Hospital has existing internet connectivity and basic IT infrastructure\n- Current patient database can be migrated to new system with minimal data loss\n- Staff will require training and support during transition period\n- EMR/EHR systems are accessible via APIs or integration protocols\n- No major legacy systems exist that would prevent integration\n\n### **Business Assumptions**\n- Hospital management supports investment in healthcare technology improvements\n- Staff willingness to adopt new digital processes and workflows\n- Adequate budget allocation for both initial development and ongoing maintenance\n- Regulatory environment allows for web-based patient appointment management\n- Existing EMR/EHR systems are compatible with the proposed integration approach\n\n### **Constraints**\n- Budget limitations may restrict advanced features in initial release\n- Timeline constraints may require phased implementation approach\n- Existing staff training capacity may limit rapid adoption\n- Integration with existing hospital systems may be complex and time-consuming\n- Compliance requirements may add complexity to development and testing phases\n\n--- \n\n*End of Document*\n",
+      "created_at": "2026-07-11T12:00:37.109073",
+      "gdoc_url": "https://docs.google.com/document/d/1uRQojwoE-lfVczAThJxAFQRaL98YTC0BRF5LsXhn8-c/edit#tab=t.wcjk1akby296",
+      "gdoc_tab_id": "t.wcjk1akby296",
+      "overall_ai_confidence": 82.22222222222223,
+      "overall_understanding_score": null,
+      "section_scores": [
+        {
+          "section_name": "Introduction",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 70.0,
+          "understanding_score": null,
+          "question_count": 6,
+          "estimated_minutes": 3,
+          "questions": [
+            {
+              "id": "q_introduction_1",
+              "text": "Does the system primarily focus on managing hospital appointments and patient data, or does it also include billing, inventory, or staff scheduling?",
+              "type": "yes_no",
+              "options": null,
+              "context": "AI confidence is low due to vague scope definition."
+            },
+            {
+              "id": "q_introduction_2",
+              "text": "Should this system integrate with existing EMR/EHR systems, or will it function independently?",
+              "type": "yes_no",
+              "options": null,
+              "context": "AI confidence is low due to lack of clarity on integration requirements."
+            },
+            {
+              "id": "q_introduction_3",
+              "text": "Is this system intended to be used across multiple hospital locations or just one?",
+              "type": "yes_no",
+              "options": null,
+              "context": "AI confidence is low as there's no mention of multi-location support."
+            },
+            {
+              "id": "q_introduction_4",
+              "text": "Should the system support different departments (e.g., cardiology, pediatrics) with specific workflows?",
+              "type": "yes_no",
+              "options": null,
+              "context": "AI confidence is low due to lack of explicit mention of departmental workflows."
+            },
+            {
+              "id": "q_introduction_5",
+              "text": "What are the expected technical constraints or environments for deployment (e.g., cloud, on-premises)?",
+              "type": "short_text",
+              "options": null,
+              "context": "AI confidence is low due to missing technical stack and environment details."
+            },
+            {
+              "id": "q_introduction_6",
+              "text": "Are there any specific compliance standards (like HIPAA or GDPR) that the system must adhere to?",
+              "type": "yes_no",
+              "options": null,
+              "context": "AI confidence is low due to lack of explicit mention of compliance frameworks."
+            }
+          ],
+          "why_low": [
+            "Lacks specific details about system scope or boundaries",
+            "Does not define key terms like 'hospital management system' in context of this project",
+            "No mention of technical stack, deployment environment, or integration requirements"
+          ],
+          "confidence_level": "medium",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Executive Summary",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 75.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_executive_summary",
+              "text": "Is the 'Executive Summary' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [
+            "Vague description of 'digitize and streamline hospital operations'",
+            "Does not explicitly mention core functionalities like appointment booking, doctor scheduling, or patient records as specified in original requirements"
+          ],
+          "confidence_level": "medium",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "User Personas",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 80.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_user_personas",
+              "text": "Is the 'User Personas' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Functional Requirements",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 90.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_functional_requirements",
+              "text": "Is the 'Functional Requirements' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Non-Functional Requirements",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 85.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_non-functional_requirements",
+              "text": "Is the 'Non-Functional Requirements' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "User Stories",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 82.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_user_stories",
+              "text": "Is the 'User Stories' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Out of Scope",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 95.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_out_of_scope",
+              "text": "Is the 'Out of Scope' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Success Metrics",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 78.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_success_metrics",
+              "text": "Is the 'Success Metrics' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [
+            "Metrics are somewhat generic and don't fully capture the nuances of user satisfaction or operational efficiency",
+            "No clear KPIs for system performance or data integrity"
+          ],
+          "confidence_level": "medium",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        },
+        {
+          "section_name": "Assumptions & Constraints",
+          "section_content_preview": "",
+          "gdoc_heading_id": null,
+          "ai_confidence": 85.0,
+          "understanding_score": null,
+          "question_count": 1,
+          "estimated_minutes": 1,
+          "questions": [
+            {
+              "id": "q_fallback_assumptions_&_constraints",
+              "text": "Is the 'Assumptions & Constraints' section accurate and complete?",
+              "type": "yes_no",
+              "options": null,
+              "context": "General confirmation question."
+            }
+          ],
+          "why_low": [],
+          "confidence_level": "high",
+          "lock_status": "unlocked",
+          "locked_at": null,
+          "locked_by": null
+        }
+      ],
+      "review_session": {
+        "session_id": "b1428211-7c1e-4aba-828f-1e2d34c16cb4",
+        "prd_version": 2,
+        "started_at": "2026-07-11T12:01:34.183216",
+        "completed_at": null,
+        "questionnaire_responses": {},
+        "completed_sections": [],
+        "feedback_files": [],
+        "feedback_text": null,
+        "understanding_analysis": null,
+        "new_requirements": 0,
+        "clarifications": 0,
+        "conflicts": 0,
+        "enhancements": 0,
+        "change_evidence": [],
+        "status": "in_progress",
+        "quick_questions": [
+          {
+            "id": "qq_1",
+            "type": "multiple_choice",
+            "text": "What is the expected scope of integration with existing EMR/EHR systems, and should the new system act as a standalone platform or fully synchronize data in real-time?",
+            "context": "The original requirements mention integration with EMR/EHR systems but do not clarify the depth or method of this integration. This question addresses whether the system will simply pull data or fully synchronize, impacting architecture, compliance, and development effort.",
+            "options": [
+              "The system will act as a standalone platform with manual data entry and limited synchronization",
+              "The system will integrate via APIs to pull and push data in real-time with full synchronization",
+              "The system will use batch processing for periodic data updates without real-time sync"
+            ]
+          },
+          {
+            "id": "qq_2",
+            "type": "multiple_choice",
+            "text": "How should scheduling conflicts be resolved, and what level of automation is expected in conflict detection?",
+            "context": "The PRD mentions conflict detection but does not clarify whether conflicts are auto-resolved or require manual intervention. This impacts system complexity, user experience, and workflow design.",
+            "options": [
+              "Conflicts are automatically resolved by the system with no human intervention",
+              "Conflicts trigger alerts for administrators to manually resolve",
+              "Conflicts are flagged for both patient and doctor to negotiate resolution"
+            ]
+          },
+          {
+            "id": "qq_3",
+            "type": "open",
+            "text": "What are the specific compliance requirements (e.g., HIPAA, GDPR) that must be met, and how will they influence system design, access controls, and audit logging?",
+            "context": "While the PRD mentions compliance, it lacks detail on which jurisdictions or regulations apply. This is critical for data handling, encryption, access control, and audit trail implementation.",
+            "options": null
+          },
+          {
+            "id": "qq_4",
+            "type": "multiple_choice",
+            "text": "What level of customization is expected for different medical specialties, and how will this be managed in terms of UI/UX and scheduling rules?",
+            "context": "The PRD mentions specialty-specific workflows but does not define the degree of customization needed. This impacts system flexibility, development scope, and user training requirements.",
+            "options": [
+              "Highly customizable interfaces and workflows per department with admin-defined templates",
+              "Predefined specialty profiles with minimal customization options",
+              "Standardized interface with optional specialty overrides for key fields"
+            ]
+          },
+          {
+            "id": "qq_5",
+            "type": "open",
+            "text": "What is the expected user base size and usage pattern, including peak times, concurrent users, and average session duration?",
+            "context": "This impacts scalability planning, server capacity, load testing, and performance optimization. The original requirements do not provide these details.",
+            "options": null
+          },
+          {
+            "id": "qq_6",
+            "type": "multiple_choice",
+            "text": "Should the system support multi-location hospital networks, and if so, how will data be managed across locations?",
+            "context": "The PRD mentions multi-departmental workflows but does not clarify whether it supports multiple physical locations or just departments within one site.",
+            "options": [
+              "Single location only with departmental segregation",
+              "Multi-location support with centralized data management and local access controls",
+              "Multi-location support with independent local databases and periodic sync"
+            ]
+          },
+          {
+            "id": "qq_7",
+            "type": "open",
+            "text": "What are the key performance indicators (KPIs) that will be used to measure success of this system, and how should they be tracked?",
+            "context": "This helps define reporting features, dashboard design, and metrics collection. The original requirements do not specify KPIs or tracking mechanisms.",
+            "options": null
+          },
+          {
+            "id": "qq_8",
+            "type": "multiple_choice",
+            "text": "What is the preferred approach for handling patient no-shows and missed appointments—automated penalties, reminders only, or manual intervention?",
+            "context": "This affects notification logic, user experience, and potential policy integration. The PRD mentions notifications but does not clarify enforcement mechanisms.",
+            "options": [
+              "Automated system-wide penalties (e.g., booking restrictions after 3 no-shows)",
+              "Only automated reminders with manual follow-up by staff",
+              "No-show tracking only for reporting purposes without enforcement"
+            ]
+          },
+          {
+            "id": "qq_9",
+            "type": "open",
+            "text": "What are the long-term scalability goals for the system, including expected growth in users, data volume, and supported features?",
+            "context": "This determines architecture choices, cloud infrastructure planning, and feature roadmap alignment. The PRD lacks clarity on future expansion plans.",
+            "options": null
+          },
+          {
+            "id": "qq_10",
+            "type": "multiple_choice",
+            "text": "How should patient data be handled in terms of access permissions—should all staff have access to all records, or is access restricted by role and department?",
+            "context": "This directly impacts RBAC implementation, audit logging, and security design. The PRD mentions access controls but does not define granularity.",
+            "options": [
+              "All staff can view full patient records with role-based restrictions",
+              "Access limited to relevant departments or providers only",
+              "Access based on hierarchical roles with delegation capabilities"
+            ]
+          }
+        ],
+        "quick_responses": {},
+        "review_mode": "detailed"
+      },
+      "changes_from_previous": [],
+      "change_evidence": [],
+      "status": "active"
+    }
+  ],
+  "current_prd_version": 2,
+  "prd_review_slack_thread_ts": "1783770715.253039",
+  "total_tokens": 8911,
+  "total_cost_usd": 0.0,
+  "started_at": "2026-07-11T11:50:26.119573",
+  "completed_at": null
+}
