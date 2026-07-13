@@ -27,8 +27,10 @@ RUN pip install --no-cache-dir .
 # Copy backend code
 COPY src/ ./src/
 COPY prompts/ ./prompts/
-COPY rag_data/ ./rag_data/
-COPY google_oauth_client.json* google_oauth_token.json* google_service_account.json* ./
+
+# Copy Google credential files conditionally (won't fail if they don't exist since pyproject.toml is guaranteed to exist)
+COPY pyproject.toml google_oauth_client.json* google_oauth_token.json* google_service_account.json* ./
+
 
 # Create directory structure for runner/workspace
 RUN mkdir -p workspace
