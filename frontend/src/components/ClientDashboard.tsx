@@ -84,7 +84,7 @@ export function ClientDashboard({ projectId, token, onOpenReview }: ClientDashbo
           {/* Active Phase Card */}
           {activePhaseInfo && (
             <div className="card" style={{ padding: '24px', background: 'linear-gradient(135deg, var(--bg-card), rgba(79, 143, 255, 0.03))' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', items: 'flex-start', marginBottom: '16px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
                 <div>
                   <span style={{
                     fontSize: '0.7rem',
