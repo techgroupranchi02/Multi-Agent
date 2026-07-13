@@ -31,7 +31,7 @@ services:
     container_name: aikyam-frontend
     restart: always
     ports:
-      - "8080:80"
+      - "8099:80"
     depends_on:
       - backend
 
