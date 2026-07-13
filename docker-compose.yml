@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  # FastAPI backend service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: aikyam-backend
+    restart: always
+    volumes:
+      - ./backend/workspace:/app/workspace
+      - ./backend/rag_data:/app/rag_data
+      - /var/run/docker.sock:/var/run/docker.sock # Mounting host docker socket for deployer agent
+    environment:
+      - APP_ENV=production
+      - DATABASE_URL=postgresql+asyncpg://postgres:password@db:5432/aikyam
+      - REDIS_URL=redis://redis:6379/0
+      # All environment variables will be loaded from the host's .env file if mounted,
+      # or you can copy your .env to backend/.env inside the build,
+      # but loading via env_file is cleaner:
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - db
+      - redis
+
+  # React frontend served via Nginx
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: aikyam-frontend
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443" # For SSL termination if configured on Nginx
+    depends_on:
+      - backend
+
+  # Database service (PostgreSQL)
+  db:
+    image: postgres:15-alpine
+    container_name: aikyam-db
+    restart: always
+    environment:
+      POSTGRES_DB: aikyam
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  # Cache service (Redis)
+  redis:
+    image: redis:7-alpine
+    container_name: aikyam-redis
+    restart: always
+    volumes:
+      - redisdata:/data
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:
+  redisdata:
